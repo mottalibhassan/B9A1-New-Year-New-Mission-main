@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+
+}
+.head{
+    background-image: url("../resources/Banner\ Image.png");
+    width: 82%;
+    max-width: 1320px;
+    height: 500px;
+    margin:50px auto;
+    border-radius: 10px;
+    background-position: center;
+    background-blend-mode: saturation;
+    /* position: relative; */
+}
+main{
+    width: 82%;
+    max-width: 1320px;
+    margin:50px auto;
+}
+section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.head-section{
+    width: 632px;
+    height: 246px;
+    flex-shrink: 0;
+    justify-content: center;
+    padding-top: 130px;
+    padding-left:260px ;
+}
+.head .head-section h1{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    /* text-align: center; */
+}
+.head .head-section p{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.head .head-section *{
+    text-align: center;
+}
+.Offers-body .title h2{
+    color: #F00;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Offers-body .title P{
+    display: block;
+    padding-bottom: 15px;
+
+}
+.Offers-body .title .p1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Offers-body .title .p2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Offers-body .offer-img{
+    width: 802.9px;
+    height: 500px;
+    margin: 50px auto;
+}
+.midnight{
+    background-image: url("../resources/Vectorrr.png");
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    align-items: center;
+}
+.midnight .midnight-text h3{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+.midnight .midnight-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.midnight .midnight-text{
+    margin-left: 90px;
+    align-items: center;
+    width: 600px;
+}
+.midnight .midnight-img img{
+    width: 320px;
+    height: 450px;
+    margin-right: 50px;
+}
+.midnight .midnight-text a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.awesome-portfolio .awesome-portfolio-title caption{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.awesome-portfolio .awesome-portfolio-title{
+    display: block;
+}
+.common-p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.awesome-portfolio .awesome-portfolio-title h5{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.awesome-portfolio-pictures {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.awesome-portfolio-pictures img{
+    max-width: 370px;
+    max-height: 400px;
+}
+.maill{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    /* width: 1320px; */
+    height: 300px;
+    margin:0 auto;
+}
