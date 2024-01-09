@@ -188,29 +188,32 @@ section{
     background: rgba(255, 0, 0, 0.05);
     /* width: 1320px; */
     height: 500px;
+    
 }
 .text-maill{
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.maill .maill-1 .maill-icon{
-    height: 100px;
+.maill-icon{
+    /* height: 100px; */
     /* width: 80px; */
+    margin: 0 auto;
+    padding-top: 50px;
     
 }
 .maill-icon img{
     width: 150px;
     height: 150px;
     /* align-items: center; */
-    margin: 20px auto;
 }
-.maill .maill-icon {
-    /* align-items: center; */
-    /* margin: 30px auto; */
-}
+
 .maill-1{
-    width: 896px;
-    height: 146px;
+    /* width: 896px;
+    height: 146px; */
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -262,7 +265,7 @@ footer{
 .maill-search{
     width: 648px;
     height: 72px;
-    /* border: 1px solid rebeccapurple; */
+    margin: 5px auto;
     gap: none;
 }
 .maill-search input{
